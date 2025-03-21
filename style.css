@@ -277,6 +277,7 @@ body {
     .content {
         margin-left: 60px; /* Ajusta a margem do conteúdo para o menu compacto */
         padding: 20px; /* Padding reduzido */
+        width: calc(100% - 60px); /* Garante que o conteúdo ocupe a largura total */
     }
 
     /* Botão de Toggle para o Menu */
@@ -340,6 +341,7 @@ body {
     .content {
         margin-left: 50px; /* Ajusta a margem do conteúdo para o menu compacto */
         padding: 10px; /* Padding reduzido */
+        width: calc(100% - 50px); /* Garante que o conteúdo ocupe a largura total */
     }
 
     .card {
