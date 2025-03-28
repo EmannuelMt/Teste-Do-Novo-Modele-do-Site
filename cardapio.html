@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churrasquinho do Cumpadi</title>
+    <link rel="stylesheet" href="cardapio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    
+    <div class="parallax-layer layer-1"></div>
+  <div class="parallax-layer layer-2"></div>
+
+    <!-- Menu Lateral -->
+    <aside class="sidebar">
+        <div class="logo">
+            <img src="logo.png" alt="Logo Churrasquinho do Cumpadi">
+            <h1>Churrasquinho do Cumpadi</h1>
+        </div>
+        <ul>
+            <li><a href="index.html"><i class="fas fa-home"></i><span>Home</span></a></li>
+            <li><a href="cardapio.html"><i class="fas fa-utensils"></i><span>Cardápio</span></a></li>
+            <li><a href="bebidas.html"><i class="fas fa-glass-cheers"></i><span>Bebidas</span></a></li>
+            <li><a href="#promocoes"><i class="fas fa-tags"></i><span>Promoções</span></a></li>
+            <li><a href="#delivery"><i class="fas fa-motorcycle"></i><span>Delivery</span></a></li>
+            <li><a href="#suporte"><i class="fas fa-headset"></i><span>Suporte</span></a></li>
+            <li><a href="#duvidas"><i class="fas fa-question-circle"></i><span>Dúvidas</span></a></li>
+            <li><a href="#sociais"><i class="fas fa-share-alt"></i><span>Sociais</span></a></li>
+            <li><a href="#app"><i class="fas fa-mobile-alt"></i><span>Aplicativo</span></a></li>
+            <li><a href="#contato"><i class="fas fa-phone"></i><span>Contato</span></a></li>
+            <li><a href="#configuracoes"><i class="fas fa-cog"></i><span>Configurações</span></a></li>
+            <li><a href="#sair"><i class="fas fa-sign-out-alt"></i><span>Sair</span></a></li>
+        </ul>
+    </aside>
+
+    <!-- Conteúdo Principal -->
+    <main class="content">
+        <!-- História da Loja -->
+        <section id="historia" class="historia-section">
+            <div class="historia-content">
+                <div class="historia-imagem">
+                    <img src="foto-loja.jpg" alt="Foto da Loja">
+                </div>
+                <div class="historia-texto">
+                    <h2>Nossa História</h2>
+                    <p>Desde 2010, o Churrasquinho do Cumpadi traz o melhor da gastronomia brasileira com um toque especial. Nosso compromisso é oferecer qualidade, sabor e uma experiência única para nossos clientes.</p>
+                </div>
+            </div>
+        </section>
+    
+       <!-- Home -->
+<section id="home" class="home-section">
+    <div class="banner">
+        <div class="carousel">
+            <img src="banner1.jpg" alt="Banner 1">
+            <img src="banner2.jpg" alt="Banner 2">
+            <img src="banner3.jpg" alt="Banner 3">
+        </div>
+        <div class="banner-text">
+            <h2>Peça agora e receba em casa!</h2>
+        </div>
+    </div>
+
+    <h1>Cardápio</h1>
+
+    <!-- Itens do Cardápio -->
+    <div class="cardapio-container">
+        <!-- Churrasquinhos -->
+        <div class="categoria churrasquinhos">
+            <h2>Churrasquinhos</h2>
+            <div class="cards">
+                <!-- Picanha -->
+                <div class="card">
+                    <img src="picanha.jpg" alt="Picanha">
+                    <h3>Picanha</h3>
+                    <p class="descricao">Corte nobre e suculento, perfeito para churrasco.</p>
+                    <p class="preco">R$ 17,99</p>
+                    <button class="btn-adicionar"><i class="fas fa-cart-plus"></i> Adicionar</button>
+                    <button class="btn-favoritar"><i class="fas fa-heart"></i> Favoritar</button>
+                </div>
+
+                <!-- Cupim -->
+                <div class="card">
+                    <img src="cupim.jpg" alt="Cupim">
+                    <h3>Cupim</h3>
+                    <p class="descricao">Corte macio e saboroso, ideal para grelhar.</p>
+                    <p class="preco">R$ 17,99</p>
+                    <button class="btn-adicionar"><i class="fas fa-cart-plus"></i> Adicionar</button>
+                    <button class="btn-favoritar"><i class="fas fa-heart"></i> Favoritar</button>
+                </div>
+
+                <!-- Contra Filé -->
+                <div class="card">
+                    <img src="contra-file.jpg" alt="Contra Filé">
+                    <h3>Contra Filé</h3>
+                    <p class="descricao">Corte magro e suculento, ótimo para churrasco.</p>
+                    <p class="preco">R$ 10,99</p>
+                    <button class="btn-adicionar"><i class="fas fa-cart-plus"></i> Adicionar</button>
+                    <button class="btn-favoritar"><i class="fas fa-heart"></i> Favoritar</button>
+                </div>
+
+                <!-- Costela -->
+                <div class="card">
+                    <img src="costela.jpg" alt="Costela">
+                    <h3>Costela</h3>
+                    <p class="descricao">Corte suculento e cheio de sabor.</p>
+                    <p class="preco">R$ 11,99</p>
+                    <button class="btn-adicionar"><i class="fas fa-cart-plus"></i> Adicionar</button>
+                    <button class="btn-favoritar"><i class="fas fa-heart"></i> Favoritar</button>
+                </div>
+
+                <!-- Kafta Artesanal -->
+                <div class="card">
+                    <img src="kafta.jpg" alt="Kafta Artesanal">
+                    <h3>Kafta Artesanal</h3>
+                    <p class="descricao">Deliciosa kafta feita artesanalmente.</p>
+                    <p class="preco">R$ 14,99</p>
+                    <button class="btn-adicionar"><i class="fas fa-cart-plus"></i> Adicionar</button>
+                    <button class="btn-favoritar"><i class="fas fa-heart"></i> Favoritar</button>
+                </div>
+
+                <!-- Placenta -->
+                <div class="card">
+                    <img src="placenta.jpg" alt="Placenta">
+                    <h3>Placenta</h3>
+                    <p class="descricao">Corte suculento e saboroso.</p>
+                    <p class="preco">R$ 10,99</p>
+                    <button class="btn-adicionar"><i class="fas fa-cart-plus"></i> Adicionar</button>
+                    <button class="btn-favoritar"><i class="fas fa-heart"></i> Favoritar</button>
+                </div>
+
+                <!-- Medalhão -->
+                <div class="card">
+                    <img src="medalhao.jpg" alt="Medalhão">
+                    <h3>Medalhão</h3>
+                    <p class="descricao">Medalhão suculento e bem temperado.</p>
+                    <p class="preco">R$ 8,99</p>
+                    <button class="btn-adicionar"><i class="fas fa-cart-plus"></i> Adicionar</button>
+                    <button class="btn-favoritar"><i class="fas fa-heart"></i> Favoritar</button>
+                </div>
+
+                <!-- Linguiça -->
+                <div class="card">
+                    <img src="linguica.jpg" alt="Linguiça">
+                    <h3>Linguiça</h3>
+                    <p class="descricao">Linguiça suculenta e saborosa.</p>
+                    <p class="preco">R$ 8,99</p>
+                    <button class="btn-adicionar"><i class="fas fa-cart-plus"></i> Adicionar</button>
+                    <button class="btn-favoritar"><i class="fas fa-heart"></i> Favoritar</button>
+                </div>
+
+                <!-- Meio da Asa -->
+                <div class="card">
+                    <img src="meio-asa.jpg" alt="Meio da Asa">
+                    <h3>Meio da Asa</h3>
+                    <p class="descricao">Asa de frango grelhada e temperada.</p>
+                    <p class="preco">R$ 8,99</p>
+                    <button class="btn-adicionar"><i class="fas fa-cart-plus"></i> Adicionar</button>
+                    <button class="btn-favoritar"><i class="fas fa-heart"></i> Favoritar</button>
+                </div>
+
+                <!-- Coração -->
+                <div class="card">
+                    <img src="coracao.jpg" alt="Coração">
+                    <h3>Coração</h3>
+                    <p class="descricao">Coração de frango grelhado e saboroso.</p>
+                    <p class="preco">R$ 10,99</p>
+                    <button class="btn-adicionar"><i class="fas fa-cart-plus"></i> Adicionar</button>
+                    <button class="btn-favoritar"><i class="fas fa-heart"></i> Favoritar</button>
+                </div>
+
+                <!-- Almôndega -->
+                <div class="card">
+                    <img src="almondega.jpg" alt="Almôndega">
+                    <h3>Almôndega</h3>
+                    <p class="descricao">Almôndega suculenta e bem temperada.</p>
+                    <p class="preco">R$ 10,99</p>
+                    <button class="btn-adicionar"><i class="fas fa-cart-plus"></i> Adicionar</button>
+                    <button class="btn-favoritar"><i class="fas fa-heart"></i> Favoritar</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Acompanhamentos -->
+        <div class="categoria acompanhamentos">
+            <h2>Acompanhamentos</h2>
+            <div class="cards">
+                <!-- Pão de Alho -->
+                <div class="card">
+                    <img src="pao-de-alho.jpg" alt="Pão de Alho">
+                    <h3>Pão de Alho</h3>
+                    <p class="descricao">Pão de alho caseiro, crocante por fora e macio por dentro.</p>
+                    <p class="preco">R$ 7,99</p>
+                    <button class="btn-adicionar"><i class="fas fa-cart-plus"></i> Adicionar</button>
+                    <button class="btn-favoritar"><i class="fas fa-heart"></i> Favoritar</button>
+                </div>
+
+                <!-- Queijo Coalho -->
+                <div class="card">
+                    <img src="queijo-coalho.jpg" alt="Queijo Coalho">
+                    <h3>Queijo Coalho</h3>
+                    <p class="descricao">Queijo coalho grelhado, perfeito para acompanhar churrasco.</p>
+                    <p class="preco">R$ 10,99</p>
+                    <button class="btn-adicionar"><i class="fas fa-cart-plus"></i> Adicionar</button>
+                    <button class="btn-favoritar"><i class="fas fa-heart"></i> Favoritar</button>
+                </div>
+
+                <!-- Queijo Provolone -->
+                <div class="card">
+                    <img src="queijo-provolone.jpg" alt="Queijo Provolone">
+                    <h3>Queijo Provolone</h3>
+                    <p class="descricao">Queijo provolone grelhado, derretido e saboroso.</p>
+                    <p class="preco">R$ 10,99</p>
+                    <button class="btn-adicionar"><i class="fas fa-cart-plus"></i> Adicionar</button>
+                    <button class="btn-favoritar"><i class="fas fa-heart"></i> Favoritar</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Jantinha -->
+        <div class="categoria jantinha">
+            <h2>Jantinha</h2>
+            <div class="cards">
+                <!-- Jantinha Arroz Branco -->
+                <div class="card">
+                    <img src="jantinha-arroz-branco.jpg" alt="Jantinha Arroz Branco">
+                    <h3>Jantinha Arroz Branco</h3>
+                    <p class="descricao">Arroz branco, feijão tropeiro, mandioca, vinagrete e batata frita.</p>
+                    <p class="preco">R$ 15,00 (meia R$ 10,00)</p>
+                    <button class="btn-adicionar"><i class="fas fa-cart-plus"></i> Adicionar</button>
+                    <button class="btn-favoritar"><i class="fas fa-heart"></i> Favoritar</button>
+                </div>
+
+                <!-- Jantinha Arroz Frito -->
+                <div class="card">
+                    <img src="jantinha-arroz-frito.jpg" alt="Jantinha Arroz Frito">
+                    <h3>Jantinha Arroz Frito</h3>
+                    <p class="descricao">Arroz frito, feijão tropeiro, mandioca, vinagrete e batata frita.</p>
+                    <p class="preco">R$ 17,00 (meia R$ 12,00)</p>
+                    <button class="btn-adicionar"><i class="fas fa-cart-plus"></i> Adicionar</button>
+                    <button class="btn-favoritar"><i class="fas fa-heart"></i> Favoritar</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Porções -->
+        <div class="categoria porcoes">
+            <h2>Porções</h2>
+            <div class="cards">
+                <!-- Filé de Tilápia -->
+                <div class="card">
+                    <img src="file-tilapia.jpg" alt="Filé de Tilápia">
+                    <h3>Filé de Tilápia</h3>
+                    <p class="descricao">Filé de tilápia grelhado, acompanhado de molho especial.</p>
+                    <p class="preco">R$ 44,90</p>
+                    <button class="btn-adicionar"><i class="fas fa-cart-plus"></i> Adicionar</button>
+                    <button class="btn-favoritar"><i class="fas fa-heart"></i> Favoritar</button>
+                </div>
+
+                <!-- Frango a Passarinho -->
+                <div class="card">
+                    <img src="frango-passarinho.jpg" alt="Frango a Passarinho">
+                    <h3>Frango a Passarinho</h3>
+                    <p class="descricao">Porção de frango a passarinho, crocante e saborosa.</p>
+                    <p class="preco">R$ 30,00</p>
+                    <button class="btn-adicionar"><i class="fas fa-cart-plus"></i> Adicionar</button>
+                    <button class="btn-favoritar"><i class="fas fa-heart"></i> Favoritar</button>
+                </div>
+
+                <!-- Batata Frita -->
+                <div class="card">
+                    <img src="batata-frita.jpg" alt="Batata Frita">
+                    <h3>Batata Frita</h3>
+                    <p class="descricao">Porção de batata frita crocante e dourada.</p>
+                    <p class="preco">R$ 20,00</p>
+                    <button class="btn-adicionar"><i class="fas fa-cart-plus"></i> Adicionar</button>
+                    <button class="btn-favoritar"><i class="fas fa-heart"></i> Favoritar</button>
+                </div>
+
+                <!-- Batata Cheddar e Bacon -->
+                <div class="card">
+                    <img src="batata-cheddar-bacon.jpg" alt="Batata Cheddar e Bacon">
+                    <h3>Batata Cheddar e Bacon</h3>
+                    <p class="descricao">Batata frita coberta com cheddar derretido e bacon crocante.</p>
+                    <p class="preco">R$ 30,00</p>
+                    <button class="btn-adicionar"><i class="fas fa-cart-plus"></i> Adicionar</button>
+                    <button class="btn-favoritar"><i class="fas fa-heart"></i> Favoritar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Seção de Favoritos -->
+    <div class="favoritos-container">
+        <h2>Favoritos</h2>
+
+        <!-- Churrasquinhos Favoritos -->
+        <div class="categoria-favoritos" id="favoritos-churrasquinhos">
+            <h3>Churrasquinhos</h3>
+            <div class="itens-favoritos">
+                <!-- Itens serão adicionados dinamicamente aqui -->
+                <span class="favoritos-count" style="display: none;">0</span>
+            </div>
+        </div>
+
+        <!-- Acompanhamentos Favoritos -->
+        <div class="categoria-favoritos" id="favoritos-acompanhamentos">
+            <h3>Acompanhamentos</h3>
+            <div class="itens-favoritos">
+                <!-- Itens serão adicionados dinamicamente aqui -->
+            </div>
+        </div>
+
+        <!-- Jantinha Favoritos -->
+        <div class="categoria-favoritos" id="favoritos-jantinha">
+            <h3>Jantinha</h3>
+            <div class="itens-favoritos">
+                <!-- Itens serão adicionados dinamicamente aqui -->
+            </div>
+        </div>
+
+        <!-- Porções Favoritos -->
+        <div class="categoria-favoritos" id="favoritos-porcoes">
+            <h3>Porções</h3>
+            <div class="itens-favoritos">
+                <!-- Itens serão adicionados dinamicamente aqui -->
+            </div>
+        </div>
+    </div>
+<!-- Dúvidas e Perguntas Frequentes -->
+<section id="duvidas" class="duvidas-section">
+    <h2>Dúvidas e Perguntas Frequentes</h2>
+    <div class="cards-container">
+        <!-- Card de Dúvidas -->
+        <div class="card">
+            <div class="card-icon">
+                <i class="fas fa-question-circle"></i>
+            </div>
+            <h3>Dúvidas</h3>
+            <p>Tire suas dúvidas sobre o site.</p>
+            <button class="btn" onclick="toggleCard('duvidas-content')">Ver Dúvidas</button>
+            <div id="duvidas-content" class="card-content">
+                <p>1. Como faço para fazer um pedido?</p>
+                <p>2. Quais são as formas de pagamento?</p>
+                <p>3. Como rastreio meu pedido?</p>
+            </div>
+        </div>
+
+        <!-- Card de Perguntas Frequentes -->
+        <div class="card">
+            <div class="card-icon">
+                <i class="fas fa-comments"></i>
+            </div>
+            <h3>Perguntas Frequentes</h3>
+            <p>Respostas para as perguntas mais comuns.</p>
+            <button class="btn" onclick="toggleCard('perguntas-content')">Ver Perguntas</button>
+            <div id="perguntas-content" class="card-content">
+                <p>1. Qual é o horário de funcionamento?</p>
+                <p>2. Vocês entregam em toda a cidade?</p>
+                <p>3. Como posso entrar em contato com o suporte?</p>
+            </div>
+        </div>
+    </div>
+    <div class="suporte-btn-container">
+        <a href="#suporte" class="btn-suporte">Entre em Contato com o Suporte</a>
+    </div>
+</section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Redes Sociais</h3>
+                <ul class="social-links">
+                    <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    <li><a href="#"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contato</h3>
+                <ul class="contact-info">
+                    <li><i class="fas fa-phone"></i> (11) 1234-5678</li>
+                    <li><i class="fas fa-envelope"></i> contato@churrasquinhodocumpadi.com</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Localização</h3>
+                <ul class="location-info">
+                    <li><i class="fas fa-map-marker-alt"></i> Rua do Churrasco, 123 - Centro</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Horário de Funcionamento</h3>
+                <ul class="opening-hours">
+                    <li>Segunda a Sexta: 11h - 22h</li>
+                    <li>Sábado e Domingo: 12h - 23h</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Churrasquinho do Cumpadi. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/cardapio.js"></script>
+</body>
+
+</html>
