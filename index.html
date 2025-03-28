@@ -13,219 +13,246 @@
 
 <body>
     <!-- Menu Lateral -->
-     
     <aside class="sidebar">
+        <div class="logo">
+            <img src="logo.png" alt="Logo Churrasquinho do Cumpadi">
+            <h1>Churrasquinho do Cumpadi</h1>
+        </div>
         <ul>
-            <li><i class="fas fa-home"></i><span>Home</span></li>
-            <li><i class="fas fa-user"></i><span>Perfil</span></li>
-            <li><i class="fas fa-motorcycle"></i><span>Delivery</span></li>
-            <li><i class="fas fa-share-alt"></i><span>Sociais</span></li>
-            <li><i class="fas fa-mobile-alt"></i><span>Aplicativo</span></li>
-            <li><i class="fas fa-phone"></i><span>Contato</span></li>
-            <li><i class="fas fa-headset"></i><span>Suporte</span></li>
-            <li><i class="fas fa-map-marker-alt"></i><span>Localização</span></li>
-            <li><i class="fas fa-cog"></i><span>Configurações</span></li>
-            <li><i class="fas fa-sign-out-alt"></i><span>Sair</span></li>
+            <li><a href="#home"><i class="fas fa-home"></i><span>Home</span></a></li>
+            <li><a href="cardapio.html"><i class="fas fa-utensils"></i><span>Cardápio</span></a></li>
+            <li><a href="bebidas.html"><i class="fas fa-glass-cheers"></i><span>Bebidas</span></a></li>
+            <li><a href="#promocoes"><i class="fas fa-tags"></i><span>Promoções</span></a></li>
+            <li><a href="#delivery"><i class="fas fa-motorcycle"></i><span>Delivery</span></a></li>
+            <li><a href="#suporte"><i class="fas fa-headset"></i><span>Suporte</span></a></li>
+            <li><a href="#duvidas"><i class="fas fa-question-circle"></i><span>Dúvidas</span></a></li>
+            <li><a href="#sociais"><i class="fas fa-share-alt"></i><span>Sociais</span></a></li>
+            <li><a href="#app"><i class="fas fa-mobile-alt"></i><span>Aplicativo</span></a></li>
+            <li><a href="#contato"><i class="fas fa-phone"></i><span>Contato</span></a></li>
+            <li><a href="#configuracoes"><i class="fas fa-cog"></i><span>Configurações</span></a></li>
+            <li><a href="#sair"><i class="fas fa-sign-out-alt"></i><span>Sair</span></a></li>
         </ul>
     </aside>
 
     <!-- Conteúdo Principal -->
     <main class="content">
-        <!-- Topo: Logo e História da Loja -->
-        <section class="top-section">
-            <div class="logo">
-                <img src="logo.png" alt="Logo Churrasquinho do Cumpadi">
-                <div class="smoke"></div>
-            </div>
-            <div class="history">
-                <h1>Churrasquinho do Cumpadi</h1>
-                <p>Desde 2010, o Churrasquinho do Cumpadi traz o melhor da gastronomia brasileira com um toque especial.
-                    Nosso compromisso é oferecer qualidade, sabor e uma experiência única para nossos clientes.</p>
+        <!-- História da Loja -->
+        <section id="historia" class="historia-section">
+            <div class="historia-content">
+                <div class="historia-imagem">
+                    <img src="foto-loja.jpg" alt="Foto da Loja">
+                </div>
+                <div class="historia-texto">
+                    <h2>Nossa História</h2>
+                    <p>Desde 2010, o Churrasquinho do Cumpadi traz o melhor da gastronomia brasileira com um toque especial. Nosso compromisso é oferecer qualidade, sabor e uma experiência única para nossos clientes.</p>
+                </div>
             </div>
         </section>
-
-        <!-- Seção do Cardápio -->
-        <section class="menu-section">
-            <h2>Cardápio</h2>
+    
+       <!-- Home -->
+<section id="home" class="home-section">
+    <div class="banner">
+        <div class="carousel">
+            <img src="banner1.jpg" alt="Banner 1">
+            <img src="banner2.jpg" alt="Banner 2">
+            <img src="banner3.jpg" alt="Banner 3">
+        </div>
+        <div class="banner-text">
+            <h2>Peça agora e receba em casa!</h2>
+            <a href="cardapio.html" class="btn">Ver Cardápio</a>
+            <a href="#delivery" class="btn">Peça Agora</a>
+        </div>
+    </div>
+    <div class="destaques">
+        <div class="card" onclick="window.location.href='#cardapio'">
+            <div class="card-icon">
+                <i class="fas fa-utensils"></i>
+            </div>
+            <h3>Jantinha</h3>
+            <p>Refeições completas e saborosas.</p>
+            <a href="cardapio.html" class="btn">Ver Cardápio</a>
+        </div>
+        <div class="card" onclick="window.location.href='#cardapio'">
+            <div class="card-icon">
+                <i class="fas fa-drumstick-bite"></i>
+            </div>
+            <h3>Porções</h3>
+            <p>Porções generosas para compartilhar.</p>
+            <a href="cardapio.html" class="btn">Ver Cardápio</a>
+        </div>
+        <div class="card" onclick="window.location.href='#cardapio'">
+            <div class="card-icon">
+                <i class="fas fa-carrot"></i>
+            </div>
+            <h3>Acompanhamentos</h3>
+            <p>Complementos para o seu churrasco.</p>
+            <a href="cardapio.html" class="btn">Ver Cardápio</a>
+        </div>
+        <div class="card" onclick="window.location.href='#bebidas'">
+            <div class="card-icon">
+                <i class="fas fa-glass-cheers"></i>
+            </div>
+            <h3>Bebidas</h3>
+            <p>Bebidas geladas para acompanhar.</p>
+            <a href="bebidas.html" class="btn">Ver Bebidas</a>
+        </div>
+    </div>
+</section>
+        <!-- Promoções -->
+        <section id="promocoes" class="promocoes-section">
+            <h2>Promoções</h2>
             <div class="cards-container">
-                <div class="card">
-                    <h3><i class="fas fa-utensils"></i> Cardápio</h3>
-                    <div class="card-content">
-                        <ul>
-                            <li>Picanha Grelhada - R$ 45,00</li>
-                            <li>Frango Assado - R$ 30,00</li>
-                            <li>Costela no Bafo - R$ 50,00</li>
-                        </ul>
+                <div class="card" onclick="window.location.href='#promocoes'">
+                    <div class="card-icon">
+                        <i class="fas fa-tags"></i>
                     </div>
-                </div>
-                <div class="card">
-                    <h3><i class="fas fa-carrot"></i> Acompanhamentos</h3>
-                    <div class="card-content">
-                        <ul>
-                            <li>Arroz Branco - R$ 8,00</li>
-                            <li>Farofa - R$ 6,00</li>
-                            <li>Vinagrete - R$ 5,00</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="card">
-                    <h3><i class="fas fa-utensil-spoon"></i> Jantinha</h3>
-                    <div class="card-content">
-                        <ul>
-                            <li>Feijoada Completa - R$ 35,00</li>
-                            <li>Strogonoff de Frango - R$ 28,00</li>
-                            <li>Lasanha à Bolonhesa - R$ 32,00</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="card">
-                    <h3><i class="fas fa-drumstick-bite"></i> Porções</h3>
-                    <div class="card-content">
-                        <ul>
-                            <li>Batata Frita - R$ 15,00</li>
-                            <li>Isca de Peixe - R$ 25,00</li>
-                            <li>Asinha de Frango - R$ 20,00</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="card">
-                    <h3><i class="fas fa-glass-cheers"></i> Bebidas</h3>
-                    <div class="card-content">
-                        <ul>
-                            <li>Refrigerante - R$ 6,00</li>
-                            <li>Cerveja - R$ 8,00</li>
-                            <li>Suco Natural - R$ 10,00</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="card">
-                    <h3><i class="fas fa-credit-card"></i> Formas de Pagamento</h3>
-                    <div class="card-content">
-                        <ul>
-                            <li>Cartão de Crédito/Débito</li>
-                            <li>Dinheiro</li>
-                            <li>Pix</li>
-                        </ul>
-                    </div>
+                    <h3>Promoções</h3>
+                    <p>Confira nossas ofertas especiais.</p>
+                    <a href="#promocoes" class="btn">Ver Promoções</a>
                 </div>
             </div>
         </section>
 
-        <!-- Seção de Informações -->
-        <section class="info-section">
-            <h2>Informações</h2>
+        <!-- Delivery -->
+        <section id="delivery" class="delivery-section">
+            <h2>Delivery</h2>
             <div class="cards-container">
-                <div class="card">
-                    <h3><i class="fas fa-motorcycle"></i> Delivery</h3>
-                    <div class="card-content">
-                        <p>Entregamos em toda a região. Faça seu pedido!</p>
+                <div class="card" onclick="window.location.href='#delivery'">
+                    <div class="card-icon">
+                        <i class="fas fa-motorcycle"></i>
                     </div>
-                </div>
-                <div class="card">
-                    <h3><i class="fas fa-mobile-alt"></i> Aplicativo</h3>
-                    <div class="card-content">
-                        <a class="playstore-button"
-                            href="https://play.google.com/store/apps/details?id=br.com.zoomentregas.taxi.taximachine&hl=pt_BR">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="icon"
-                                viewBox="0 0 512 512">
-                                <path
-                                    d="M99.617 8.057a50.191 50.191 0 00-38.815-6.713l230.932 230.933 74.846-74.846L99.617 8.057zM32.139 20.116c-6.441 8.563-10.148 19.077-10.148 30.199v411.358c0 11.123 3.708 21.636 10.148 30.199l235.877-235.877L32.139 20.116zM464.261 212.087l-67.266-37.637-81.544 81.544 81.548 81.548 67.273-37.64c16.117-9.03 25.738-25.442 25.738-43.908s-9.621-34.877-25.749-43.907zM291.733 279.711L60.815 510.629c3.786.891 7.639 1.371 11.492 1.371a50.275 50.275 0 0027.31-8.07l266.965-149.372-74.849-74.847z">
-                                </path>
-                            </svg>
-                            <span class="texts">
-                                <span class="text-1">GET IT ON</span>
-                                <span class="text-2">Google Play</span>
-
-                            </span>
-                        </a>
-                        <p>Baixe o aplicativo zoom entregas faça pedidos com facilidade!</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <h3><i class="fas fa-headset"></i> Suporte</h3>
-                    <div class="card-content">
-                        <p>Precisa de ajuda? Fale conosco!</p>
-                    </div>
+                    <h3>Delivery</h3>
+                    <p>Entregamos em toda a região.</p>
+                    <a href="#delivery" class="btn">Peça Agora</a>
                 </div>
             </div>
         </section>
+
+       <!-- Comentários -->
+<section id="comentarios" class="comentarios-section">
+    <h2>Comentários</h2>
+    <div class="cards-container">
+        <div class="card">
+            <div class="card-icon">
+                <i class="fas fa-comments"></i>
+            </div>
+            <h3>Comentários</h3>
+            <p>Veja o que nossos clientes estão dizendo.</p>
+            <button class="btn" onclick="toggleCard('comentarios-content')">Ver Comentários</button>
+            <div id="comentarios-content" class="card-content">
+                <!-- Formulário de Comentários -->
+                <form id="comentario-form" class="comentario-form">
+                    <h4>Deixe seu comentário</h4>
+                    <div class="form-group">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="comentario">Comentário:</label>
+                        <textarea id="comentario" name="comentario" rows="4" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="avaliacao">Avaliação:</label>
+                        <div class="rating">
+                            <span class="star" data-value="1">&#9733;</span>
+                            <span class="star" data-value="2">&#9733;</span>
+                            <span class="star" data-value="3">&#9733;</span>
+                            <span class="star" data-value="4">&#9733;</span>
+                            <span class="star" data-value="5">&#9733;</span>
+                        </div>
+                        <input type="hidden" id="avaliacao" name="avaliacao" value="0">
+                    </div>
+                    <button type="submit" class="btn">Enviar Comentário</button>
+                </form>
+
+                <!-- Histórico de Comentários -->
+                <div id="historico-comentarios" class="historico-comentarios">
+                    <h4>Histórico de Comentários</h4>
+                    <div id="lista-comentarios"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Dúvidas e Perguntas Frequentes -->
+<section id="duvidas" class="duvidas-section">
+    <h2>Dúvidas e Perguntas Frequentes</h2>
+    <div class="cards-container">
+        <!-- Card de Dúvidas -->
+        <div class="card">
+            <div class="card-icon">
+                <i class="fas fa-question-circle"></i>
+            </div>
+            <h3>Dúvidas</h3>
+            <p>Tire suas dúvidas sobre o site.</p>
+            <button class="btn" onclick="toggleCard('duvidas-content')">Ver Dúvidas</button>
+            <div id="duvidas-content" class="card-content">
+                <p>1. Como faço para fazer um pedido?</p>
+                <p>2. Quais são as formas de pagamento?</p>
+                <p>3. Como rastreio meu pedido?</p>
+            </div>
+        </div>
+
+        <!-- Card de Perguntas Frequentes -->
+        <div class="card">
+            <div class="card-icon">
+                <i class="fas fa-comments"></i>
+            </div>
+            <h3>Perguntas Frequentes</h3>
+            <p>Respostas para as perguntas mais comuns.</p>
+            <button class="btn" onclick="toggleCard('perguntas-content')">Ver Perguntas</button>
+            <div id="perguntas-content" class="card-content">
+                <p>1. Qual é o horário de funcionamento?</p>
+                <p>2. Vocês entregam em toda a cidade?</p>
+                <p>3. Como posso entrar em contato com o suporte?</p>
+            </div>
+        </div>
+    </div>
+    <div class="suporte-btn-container">
+        <a href="#suporte" class="btn-suporte">Entre em Contato com o Suporte</a>
+    </div>
+</section>
     </main>
 
-    <!-- Seção de Comentários -->
-    <section class="comments-section">
-        <h2>Comentários</h2>
-        <div class="comments-container">
-            <!-- Formulário de Comentários -->
-            <form id="comment-form" class="comment-form">
-                <h3>Deixe seu comentário</h3>
-                <div class="form-group">
-                    <label for="name">Nome:</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">E-mail:</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="rating">Avaliação:</label>
-                    <div class="rating">
-                        <span class="star" data-value="1">&#9733;</span>
-                        <span class="star" data-value="2">&#9733;</span>
-                        <span class="star" data-value="3">&#9733;</span>
-                        <span class="star" data-value="4">&#9733;</span>
-                        <span class="star" data-value="5">&#9733;</span>
-                    </div>
-                    <input type="hidden" id="rating" name="rating" value="0">
-                </div>
-                <div class="form-group">
-                    <label for="comment">Comentário:</label>
-                    <textarea id="comment" name="comment" rows="5" required></textarea>
-                </div>
-                <button type="submit">Enviar</button>
-            </form>
-
-            <!-- Lista de Comentários -->
-            <div id="comments-list" class="comments-list">
-                <h3>Comentários Anteriores</h3>
-                <!-- Comentários serão adicionados dinamicamente aqui -->
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Redes Sociais</h3>
+                <ul class="social-links">
+                    <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    <li><a href="#"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contato</h3>
+                <ul class="contact-info">
+                    <li><i class="fas fa-phone"></i> (11) 1234-5678</li>
+                    <li><i class="fas fa-envelope"></i> contato@churrasquinhodocumpadi.com</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Localização</h3>
+                <ul class="location-info">
+                    <li><i class="fas fa-map-marker-alt"></i> Rua do Churrasco, 123 - Centro</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Horário de Funcionamento</h3>
+                <ul class="opening-hours">
+                    <li>Segunda a Sexta: 11h - 22h</li>
+                    <li>Sábado e Domingo: 12h - 23h</li>
+                </ul>
             </div>
         </div>
-    </section>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Churrasquinho do Cumpadi. Todos os direitos reservados.</p>
+        </div>
+    </footer>
 
     <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 </body>
-
-<!-- Rodapé -->
-<footer class="footer">
-    <div class="footer-content">
-        <div class="footer-section">
-            <h3>Redes Sociais</h3>
-            <ul class="social-links">
-                <li><a href="#" target="_blank"><i class="fab fa-facebook"></i> Facebook</a></li>
-                <li><a href="#" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
-                <li><a href="#" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
-                <li><a href="#" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
-            </ul>
-        </div>
-        <div class="footer-section">
-            <h3>Contato</h3>
-            <ul class="contact-info">
-                <li><i class="fas fa-phone"></i> (11) 1234-5678</li>
-                <li><i class="fas fa-envelope"></i> contato@churrasquinhodocumpadi.com</li>
-                <li><i class="fas fa-map-marker-alt"></i> Rua do Churrasco, 123 - Centro</li>
-            </ul>
-        </div>
-        <div class="footer-section">
-            <h3>Horário de Funcionamento</h3>
-            <ul class="opening-hours">
-                <li>Segunda a Sexta: 11h - 22h</li>
-                <li>Sábado e Domingo: 12h - 23h</li>
-            </ul>
-        </div>
-    </div>
-    <div class="footer-bottom">
-        <p>&copy; 2023 Churrasquinho do Cumpadi. Todos os direitos reservados.</p>
-    </div>
-</footer>
 
 </html>
