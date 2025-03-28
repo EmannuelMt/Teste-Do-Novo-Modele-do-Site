@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churrasquinho do Cumpadi</title>
+    <link rel="stylesheet" href="promoçoes.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Menu Lateral -->
+    <aside class="sidebar">
+        <div class="logo">
+            <img src="logo.png" alt="Logo Churrasquinho do Cumpadi">
+            <h1>Churrasquinho do Cumpadi</h1>
+        </div>
+        <ul>
+            <li><a href="index.html"><i class="fas fa-home"></i><span>Home</span></a></li>
+            <li><a href="cardapio.html"><i class="fas fa-utensils"></i><span>Cardápio</span></a></li>
+            <li><a href="bebidas.html"><i class="fas fa-glass-cheers"></i><span>Bebidas</span></a></li>
+            <li><a href="#promocoes"><i class="fas fa-tags"></i><span>Promoções</span></a></li>
+            <li><a href="#delivery"><i class="fas fa-motorcycle"></i><span>Delivery</span></a></li>
+            <li><a href="#suporte"><i class="fas fa-headset"></i><span>Suporte</span></a></li>
+            <li><a href="#duvidas"><i class="fas fa-question-circle"></i><span>Dúvidas</span></a></li>
+            <li><a href="#sociais"><i class="fas fa-share-alt"></i><span>Sociais</span></a></li>
+            <li><a href="#app"><i class="fas fa-mobile-alt"></i><span>Aplicativo</span></a></li>
+            <li><a href="#contato"><i class="fas fa-phone"></i><span>Contato</span></a></li>
+            <li><a href="#configuracoes"><i class="fas fa-cog"></i><span>Configurações</span></a></li>
+            <li><a href="#sair"><i class="fas fa-sign-out-alt"></i><span>Sair</span></a></li>
+        </ul>
+    </aside>
+
+    <!-- Conteúdo Principal -->
+    <main class="content">
+        <!-- História da Loja -->
+        <section id="historia" class="historia-section">
+            <div class="historia-content">
+                <div class="historia-imagem">
+                    <img src="foto-loja.jpg" alt="Foto da Loja">
+                </div>
+                <div class="historia-texto">
+                    <h2>Nossa História</h2>
+                    <p>Desde 2010, o Churrasquinho do Cumpadi traz o melhor da gastronomia brasileira com um toque
+                        especial. Nosso compromisso é oferecer qualidade, sabor e uma experiência única para nossos
+                        clientes.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Home -->
+        <section id="home" class="home-section">
+            <div class="banner">
+                <div class="carousel">
+                    <img src="banner1.jpg" alt="Banner 1">
+                    <img src="banner2.jpg" alt="Banner 2">
+                    <img src="banner3.jpg" alt="Banner 3">
+                </div>
+                <div class="banner-text">
+                    <h2>Peça agora e receba em casa!</h2>
+                    <a href="cardapio.html" class="btn">Ver Cardápio</a>
+                    <a href="#delivery" class="btn">Peça Agora</a>
+                </div>
+            </div>
+
+            <!-- Seção de Promoções -->
+<section id="promocoes" class="promocoes-section">
+    <h2>Promoções Especiais</h2>
+    
+    <!-- Filtros de Categoria -->
+    <div class="filtros-categoria">
+        <button class="filtro-btn active" data-categoria="todos">Todas Promoções</button>
+        <button class="filtro-btn" data-categoria="bebidas">Bebidas</button>
+        <button class="filtro-btn" data-categoria="carnes">Carnes</button>
+        <button class="filtro-btn" data-categoria="combos">Combos</button>
+        <button class="filtro-btn" data-categoria="sobremesas">Sobremesas</button>
+        <button class="filtro-btn" data-categoria="relampago">Relâmpago</button>
+        <button class="filtro-btn" data-categoria="progressivo">Progressivo</button>
+        <button class="filtro-btn" data-categoria="frequentes">Fidelidade</button>
+        <button class="filtro-btn" data-categoria="cupom">Cupom</button>
+        <button class="filtro-btn" data-categoria="frete">Frete</button>
+    </div>
+    
+    <!-- Abas de Período -->
+    <div class="abas-periodo">
+        <button class="periodo-btn active" data-periodo="diarias">Promoções do Dia</button>
+        <button class="periodo-btn" data-periodo="semanais">Promoções da Semana</button>
+        <button class="periodo-btn" data-periodo="mensais">Promoções do Mês</button>
+    </div>
+    
+    <!-- Container de Promoções -->
+    <div class="promocoes-container">
+        
+        <!-- Promoções existentes... -->
+        
+        <!-- 1. Promoção de Bebidas -->
+        <div class="promo-card" data-categoria="bebidas" data-periodo="diarias">
+            <div class="promo-header">
+                <span class="promo-tag bebida">🍹 Bebidas</span>
+                <span class="promo-tempo">⏳ 5h restantes</span>
+            </div>
+            <div class="promo-imagem" style="background-image: url('img/bebidas-promo.jpg');">
+                <div class="promo-desconto">-30%</div>
+            </div>
+            <div class="promo-info">
+                <div class="rating">★★★★☆ (42)</div>
+                <h3>Happy Hour de Bebidas</h3>
+                <p class="promo-desc">Cervejas artesanais e drinks especiais com 30% OFF</p>
+                <div class="promo-precos">
+                    <span class="preco-antigo">R$ 24,90</span>
+                    <span class="preco-atual">R$ 17,43</span>
+                </div>
+                <div class="promo-meta">
+                    <span><i class="fas fa-clock"></i> 17h-19h</span>
+                    <span><i class="fas fa-wine-glass-alt"></i> +18</span>
+                </div>
+                <button class="btn-promo"><i class="fas fa-glass-cheers"></i> Aproveitar</button>
+            </div>
+        </div>
+        
+        <!-- 2. Oferta Relâmpago -->
+        <div class="promo-card" data-categoria="relampago" data-periodo="diarias">
+            <div class="promo-header">
+                <span class="promo-tag relampago">⚡ Relâmpago</span>
+                <div class="countdown" data-end="2023-06-15T20:00:00">03:45:22</div>
+            </div>
+            <div class="promo-imagem" style="background-image: url('img/relampago-promo.jpg');">
+                <div class="promo-desconto">-33%</div>
+            </div>
+            <div class="promo-info">
+                <h3>Combo Família Flash</h3>
+                <p class="promo-desc">5 espetinhos + 2 acompanhamentos + 2 refrigerantes</p>
+                <div class="promo-precos">
+                    <span class="preco-antigo">R$ 89,90</span>
+                    <span class="preco-atual">R$ 59,90</span>
+                </div>
+                <p class="stock-warning"><i class="fas fa-exclamation-circle"></i> Últimas 3 unidades!</p>
+                <button class="btn-promo"><i class="fas fa-bolt"></i> Comprar Agora</button>
+            </div>
+        </div>
+        
+        <!-- 3. Desconto Progressivo -->
+        <div class="promo-card" data-categoria="progressivo" data-periodo="mensais">
+            <div class="promo-header">
+                <span class="promo-tag progressivo">📈 Progressivo</span>
+                <span class="promo-tempo">✨ Todo o mês</span>
+            </div>
+            <div class="promo-imagem" style="background-image: url('img/progressivo-promo.jpg');">
+                <div class="promo-desconto">Até -20%</div>
+            </div>
+            <div class="promo-info">
+                <h3>Leve Mais, Pague Menos</h3>
+                <p class="promo-desc">Descontos crescentes em pedidos repetidos</p>
+                <div class="discount-steps">
+                    <div class="step"><span>1ª compra:</span> 10% OFF</div>
+                    <div class="step active"><span>2ª compra:</span> 15% OFF</div>
+                    <div class="step"><span>3ª compra+:</span> 20% OFF</div>
+                </div>
+                <button class="btn-promo"><i class="fas fa-chart-line"></i> Ver Detalhes</button>
+            </div>
+        </div>
+        
+        <!-- 4. Clientes Frequentes -->
+        <div class="promo-card" data-categoria="frequentes" data-periodo="mensais">
+            <div class="promo-header">
+                <span class="promo-tag fidelidade">👑 Fidelidade</span>
+                <span class="promo-tempo">⭐ Vantagens</span>
+            </div>
+            <div class="promo-imagem" style="background-image: url('img/fidelidade-promo.jpg');">
+                <div class="promo-desconto">VIP</div>
+            </div>
+            <div class="promo-info">
+                <h3>Cliente Premium</h3>
+                <p class="promo-desc">Benefícios exclusivos para você!</p>
+                <ul class="benefits-list">
+                    <li><i class="fas fa-gift"></i> 3ª compra: Sobremesa grátis</li>
+                    <li><i class="fas fa-percentage"></i> 5% de desconto permanente</li>
+                    <li><i class="fas fa-star"></i> Atendimento prioritário</li>
+                </ul>
+                <button class="btn-promo"><i class="fas fa-crown"></i> Participar</button>
+            </div>
+        </div>
+        
+        <!-- 5. Cupom de Desconto -->
+        <div class="promo-card" data-categoria="cupom" data-periodo="semanais">
+            <div class="promo-header">
+                <span class="promo-tag cupom">🎟️ Cupom</span>
+                <span class="promo-tempo">📅 Válido até 30/06</span>
+            </div>
+            <div class="promo-imagem" style="background-image: url('img/cupom-promo.jpg');">
+                <div class="promo-desconto">-15%</div>
+            </div>
+            <div class="promo-info">
+                <h3>Cupom Especial</h3>
+                <p class="promo-desc">Use no checkout e ganhe desconto</p>
+                <div class="coupon-box">
+                    <div class="coupon-code">CHURRAS15</div>
+                    <div class="coupon-desc">15% OFF em pedidos acima de R$80</div>
+                </div>
+                <button class="btn-promo"><i class="fas fa-copy"></i> Copiar Código</button>
+            </div>
+        </div>
+        
+        <!-- 6. Frete Grátis -->
+        <div class="promo-card" data-categoria="frete" data-periodo="semanais">
+            <div class="promo-header">
+                <span class="promo-tag frete">🚚 Frete</span>
+                <span class="promo-tempo">📍 Região Central</span>
+            </div>
+            <div class="promo-imagem" style="background-image: url('img/frete-promo.jpg');">
+                <div class="promo-desconto">Grátis</div>
+            </div>
+            <div class="promo-info">
+                <h3>Delivery Grátis</h3>
+                <p class="promo-desc">Pedidos acima de:</p>
+                <div class="free-shipping-banner">
+                    <span class="amount">R$ 60,00</span>
+                </div>
+                <p class="promo-desc">Para toda a região central</p>
+                <button class="btn-promo"><i class="fas fa-truck"></i> Pedir Agora</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+                    <!-- Dúvidas e Perguntas Frequentes -->
+                    <section id="duvidas" class="duvidas-section">
+                        <h2>Dúvidas e Perguntas Frequentes</h2>
+                        <div class="cards-container">
+                            <!-- Card de Dúvidas -->
+                            <div class="card">
+                                <div class="card-icon">
+                                    <i class="fas fa-question-circle"></i>
+                                </div>
+                                <h3>Dúvidas</h3>
+                                <p>Tire suas dúvidas sobre o site.</p>
+                                <button class="btn" onclick="toggleCard('duvidas-content')">Ver Dúvidas</button>
+                                <div id="duvidas-content" class="card-content">
+                                    <p>1. Como faço para fazer um pedido?</p>
+                                    <p>2. Quais são as formas de pagamento?</p>
+                                    <p>3. Como rastreio meu pedido?</p>
+                                </div>
+                            </div>
+
+                            <!-- Card de Perguntas Frequentes -->
+                            <div class="card">
+                                <div class="card-icon">
+                                    <i class="fas fa-comments"></i>
+                                </div>
+                                <h3>Perguntas Frequentes</h3>
+                                <p>Respostas para as perguntas mais comuns.</p>
+                                <button class="btn" onclick="toggleCard('perguntas-content')">Ver Perguntas</button>
+                                <div id="perguntas-content" class="card-content">
+                                    <p>1. Qual é o horário de funcionamento?</p>
+                                    <p>2. Vocês entregam em toda a cidade?</p>
+                                    <p>3. Como posso entrar em contato com o suporte?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="suporte-btn-container">
+                            <a href="#suporte" class="btn-suporte">Entre em Contato com o Suporte</a>
+                        </div>
+                    </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Redes Sociais</h3>
+                <ul class="social-links">
+                    <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    <li><a href="#"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contato</h3>
+                <ul class="contact-info">
+                    <li><i class="fas fa-phone"></i> (11) 1234-5678</li>
+                    <li><i class="fas fa-envelope"></i> contato@churrasquinhodocumpadi.com</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Localização</h3>
+                <ul class="location-info">
+                    <li><i class="fas fa-map-marker-alt"></i> Rua do Churrasco, 123 - Centro</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Horário de Funcionamento</h3>
+                <ul class="opening-hours">
+                    <li>Segunda a Sexta: 11h - 22h</li>
+                    <li>Sábado e Domingo: 12h - 23h</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Churrasquinho do Cumpadi. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/promoçoes.js"></script>
+</body>
+
+</html>
